@@ -224,4 +224,14 @@ address {
     section li {
         flex-basis: 32.5%;
     }
+
+    /* Footer Styles */
+    .social {
+        flex-basis: 37%;
+        padding-left: 9rem;
+    }
+
+    address {
+        flex-basis: 63%;
+    }
 }
