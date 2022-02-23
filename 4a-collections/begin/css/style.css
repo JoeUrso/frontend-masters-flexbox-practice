@@ -14,7 +14,6 @@ Clearly there is more you could place in variables, up to you if you want to use
     --color10: #9b2226;
 }
 
-
 /* generic site styles */
 
 html {
@@ -28,8 +27,8 @@ html {
 }
 
 body {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background-color: #DBE5DE;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #dbe5de;
     padding: 0;
     margin: 0;
 }
@@ -44,15 +43,67 @@ section h2 {
     font-size: 2.5rem;
 }
 
-
 /* Initial mobile layout: a series of images stacked on top of each other with the figure caption over the image. */
-
-
+ul {
+    display: flex;
+    flex-flow: row wrap;
+    width: 100%;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+li {
+    flex-basis: 100%;
+    height: 15rem;
+    margin-bottom: 0.5rem;
+}
+figure {
+    display: flex;
+    margin: 0;
+    position: relative;
+    height: 100%;
+}
+img {
+    width: 100%;
+    object-fit: cover;
+}
+figcaption {
+    position: absolute;
+    bottom: 0%;
+    width: 100%;
+    background-color: #dbe5de;
+    opacity: 0.7;
+    padding: 0.75rem;
+}
+a {
+    text-decoration: none;
+    color: #001219;
+    font-size: 22px;
+}
+.zero {
+    border: 5px solid var(--color7);
+}
+.one {
+    border: 5px solid var(--color2);
+}
+.two {
+    border: 5px solid var(--color6);
+}
+.three {
+    border: 5px solid var(--color9);
+}
+.four {
+    border: 5px solid var(--color4);
+}
+.five {
+    border: 5px solid var(--color3);
+}
 /* At this breakpoint, transition to 2 figures per line */
 
-@media (min-width: 550px) {}
-
+@media (min-width: 550px) {
+}
 
 /* At this breakpoint, transition to 3 figures per line */
 
-@media (min-width: 800px) {}
+@media (min-width: 800px) {
+}
