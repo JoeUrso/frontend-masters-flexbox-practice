@@ -186,6 +186,18 @@ figcaption a {
 }
 
 @media (min-width: 800px) {
+    h1 {
+        margin-left: 100px;
+    }
+
+    .logo {
+        height: 15rem;
+    }
+
+    .mission-text {
+        font-size: 0.9rem;
+    }
+
     section h2 {
         margin-left: 100px;
     }
