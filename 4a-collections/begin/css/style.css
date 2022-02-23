@@ -101,9 +101,38 @@ a {
 /* At this breakpoint, transition to 2 figures per line */
 
 @media (min-width: 550px) {
+    ul {
+        gap: 2%;
+    }
+    li {
+        flex-basis: 49%;
+        height: 25rem;
+    }
+    figcaption {
+        padding: 1.5rem;
+    }
+    a {
+        font-size: 2rem;
+    }
 }
 
 /* At this breakpoint, transition to 3 figures per line */
 
 @media (min-width: 800px) {
+    h2 {
+        margin-left: 5rem;
+    }
+    ul {
+        gap: 2%;
+    }
+    li {
+        flex-basis: 32%;
+        height: 20rem;
+    }
+    figcaption {
+        padding: 1.5rem;
+    }
+    a {
+        font-size: 2rem;
+    }
 }
