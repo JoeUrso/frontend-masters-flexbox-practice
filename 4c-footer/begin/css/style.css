@@ -200,6 +200,21 @@ address {
         );
         max-height: 211px;
     }
+
+    /* Footer Styles */
+    footer {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .social {
+        padding-left: 2rem;
+        flex-basis: 50%;
+    }
+    address {
+        flex-basis: 50%;
+    }
 }
 
 @media (min-width: 800px) {
