@@ -66,6 +66,10 @@ nav ul {
     flex-flow: row wrap;
     justify-content: flex-end;
 }
+nav li:first-child {
+    flex-basis: 100%;
+    text-align: center;
+}
 nav a {
     text-decoration: none;
     font-size: 1.2rem;
@@ -252,6 +256,24 @@ footer address {
     /* remove the top margin assigned above that provided space between .social and address */
     footer address {
         margin-top: 0;
+    }
+
+    /* header and nav styles  */
+    nav ul {
+        justify-content: center;
+        gap: 1.2em;
+    }
+    nav li {
+        flex-basis: auto;
+        margin-bottom: 0;
+    }
+    nav a {
+        color: var(--color1);
+        background-color: transparent;
+    }
+    nav a:hover {
+        color: var(--color3);
+        background-color: transparent;
     }
 }
 
