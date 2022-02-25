@@ -183,25 +183,6 @@ figcaption a {
     object-position: 0;
 }
 
-/* Popular Prints Styles */
-#popular {
-    background-color: var(--color2);
-    margin: 0;
-    padding: 0;
-    width: 100%;
-    padding: 3rem 0rem;
-}
-#popular h2 {
-    margin-left: 15rem;
-    font-size: 2.5rem;
-    color: white;
-}
-#popular section {
-    display: flex;
-    flex-flow: row nowrap;
-    gap: 2%;
-}
-
 /* style is doing double duty, styling border color and hover color. Only one declaration usually applies though.  */
 
 .color2,
@@ -360,22 +341,6 @@ footer address {
         color: var(--color2);
         background-color: transparent;
     }
-
-    /* Popular Prints Styles */
-    #popular {
-    }
-    #popular h2 {
-        margin: 0rem 0rem 1rem 1rem;
-    }
-    #popular section {
-        flex-flow: row wrap;
-    }
-    #popular figure {
-        flex-basis: 48%;
-    }
-    #popular figure:last-child {
-        flex-basis: 98%;
-    }
 }
 
 @media (min-width: 800px) {
@@ -406,4 +371,6 @@ footer address {
     nav li:nth-child(5) {
         order: 3;
     }
+
+    /* Popular Prints Styles */
 }
