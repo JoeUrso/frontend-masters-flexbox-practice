@@ -192,7 +192,8 @@ figcaption a {
 }
 #popular section {
     display: flex;
-    flex-flow: row wrap;
+    flex-flow: row nowrap;
+    gap: 2%;
 }
 
 /* style is doing double duty, styling border color and hover color. Only one declaration usually applies though.  */
