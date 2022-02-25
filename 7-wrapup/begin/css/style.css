@@ -188,7 +188,10 @@ figcaption a {
     background-color: var(--color2);
     padding: 2rem 0rem 5rem;
 }
-
+#popular ul {
+    display: flex;
+    flex-flow: column;
+}
 #popular h2 {
     color: white;
 }
@@ -400,7 +403,10 @@ footer address {
     #popular ul {
         flex-flow: row nowrap;
     }
-    #popular li:last-child {
+    #popular li {
         flex-basis: auto;
     }
+    /* #popular li:last-child {
+        flex-basis: ;
+    } */
 }
