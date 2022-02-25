@@ -373,4 +373,12 @@ footer address {
     }
 
     /* Popular Prints Styles */
+    #popular {
+        background-color: var(--color2);
+        padding: 2rem 0rem 5rem;
+    }
+
+    #popular h2 {
+        color: white;
+    }
 }
