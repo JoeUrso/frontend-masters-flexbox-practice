@@ -402,11 +402,12 @@ footer address {
     }
     #popular ul {
         flex-flow: row nowrap;
+        gap: 2%;
     }
     #popular li {
-        flex-basis: auto;
+        flex-basis: 32%;
     }
-    /* #popular li:last-child {
-        flex-basis: ;
-    } */
+    #popular li:last-child {
+        flex-basis: 32%;
+    }
 }
